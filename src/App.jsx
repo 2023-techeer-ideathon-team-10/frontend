@@ -1,15 +1,19 @@
-import { useRoutes } from "react-router-dom";
-import Footer from "./components/commons/footer";
-import Nav from "./components/commons/nav";
+import { useRoutes, useLocation } from "react-router-dom";
 import { routes } from "./Routes";
+import Nav from "./components/commons/nav";
+import Footer from "./components/commons/footer";
+
 
 function App() {
+  const location = useLocation();
+  const isLoginPage = location.pathname === '/';
   const elem = useRoutes(routes);
+  
   return (
     <div>
-      <Nav/>
+      {!isLoginPage && <Nav />}
       {elem}
-      <Footer/>
+      {!isLoginPage && <Footer />}
     </div>
   );
 }
