@@ -1,0 +1,24 @@
+.listComponentLayout{
+  width: 1080px;
+  margin: auto;
+  background-color: blue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reportmain{
+  background-color: green;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reportlayout{
+  width: 97%;
+  height: 80px;
+  background-color: red;
+  margin: 4px;
+}
