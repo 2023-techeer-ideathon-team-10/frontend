@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: white;
+}
+
+.mainlayout{
+  width: 100vw;
+  height: 100vh;
+}
+
+.table-container {
+  display: flex;
+  margin: 0;
+}
+  
+.table {
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+
+.table th, td {
+  padding: 8px;
+  border: 1px solid #000000;
+  background-color: #d2d2d2;
+}
+
+.table-spacing {
+  margin : 100px;
+}
+
