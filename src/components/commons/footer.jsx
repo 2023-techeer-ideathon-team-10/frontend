@@ -8,7 +8,7 @@ export default function Footer(){
 
     return(
       <div className="navlayout">
-        footer
+        
       </div>
     )
 }

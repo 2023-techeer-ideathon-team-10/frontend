@@ -11,6 +11,9 @@ export default function Nav(){
   const gotoMain = () =>{
     navigator('/')
   }
+  const gotoList = () =>{
+    navigator('/list')
+  }
     return(
       <div className="navlayout">
         <div className="space_between">
@@ -22,7 +25,7 @@ export default function Nav(){
             </div>
           </div>
           <div className="leftdiv">
-            <div className="navbutton">로그인</div>
+            <div className="navbutton" onClick={gotoList}>목록</div>
           </div>
         </div>
       </div>
