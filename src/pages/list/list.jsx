@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import ListComponent from "../../components/list/listcomponent/listcomponent";
 import Title from "../../components/list/title/title";

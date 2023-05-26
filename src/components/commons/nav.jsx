@@ -9,7 +9,7 @@ export default function Nav(){
   const navigator = useNavigate();
 
   const gotoMain = () =>{
-    navigator('/')
+    navigator('/main')
   }
   const gotoList = () =>{
     navigator('/list')
