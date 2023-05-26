@@ -38,6 +38,7 @@ body{
   
 .table {
   border-collapse: collapse;
+  color:black;
 }
 
 .table th, td {

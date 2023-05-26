@@ -14,10 +14,37 @@ const MainPage = () => {
         setIsModalOpen(false);
     };
 
+
+
+    const [lostGetDataDummy,setLostGetDataDummy] = useState([
+    {
+      index: 1,
+      table: 'A4',
+      time: '2023년 5월 20일',
+      item: "노트북",
+      context: 'hello'
+    },
+    {
+      index: 2,
+      table: 'E2',
+      time: '2023년 5월 22일',
+      item: "전공책",
+      context: 'hello'
+    },
+    {
+      index:3,
+      table:'B2',
+      time:'2023년 5월 24일',
+      item:"가방",
+      context:'hello'
+    },
+    ])
+
+
     return (
         <div className="mainlayout">
             <div className="title">신고 자리 확인</div>
-            <div className="table-container">
+            <div className="table-container">S
                 <table className="table">
                 <tbody>
                     <tr>

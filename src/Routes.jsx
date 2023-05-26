@@ -5,6 +5,7 @@ import Layout from "./pages/_layout";
 const Main = lazy(() => import("./pages/main/main"));
 const List = lazy(() => import("./pages/list/list"));
 const Title = lazy(() => import("./pages/title/title"));
+const PostForm = lazy(() => import("./pages/input/input"));
 
 
 
@@ -16,7 +17,8 @@ export const routes = [
     children: [
       { path: "/main", element: <Main/> },
       { path: "/", element: <Title/> },
-      {path:"/list", element:<List/>}
+      {path:"/list", element:<List/>},
+      {path:"/input",element:<PostForm/>}
     ],
   },
 ];
