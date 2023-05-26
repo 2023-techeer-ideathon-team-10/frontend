@@ -3,7 +3,7 @@ import React,{ lazy } from "react";
 import Layout from "./pages/_layout";
 
 const Main = lazy(() => import("./pages/main/main"));
-
+const Title = lazy(() => import("./pages/title/title"));
 
 
 export const routes = [
@@ -11,7 +11,8 @@ export const routes = [
     path: "/",
     element: <Layout />,
     children: [
-      { path: "/", element: <Main/> },
+      { path: "/main", element: <Main/> },
+      { path: "/", element: <Title/> },
     ],
   },
 ];
